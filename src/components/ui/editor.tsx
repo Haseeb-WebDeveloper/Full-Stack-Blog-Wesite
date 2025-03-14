@@ -44,13 +44,26 @@ export function Editor({ value, onChange }: EditorProps) {
         plugins: [
           'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
           'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
-          'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount'
+          'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount, codesample'
         ],
         toolbar: 'undo redo | blocks | ' +
           'bold italic forecolor | alignleft aligncenter ' +
           'alignright alignjustify | bullist numlist outdent indent | ' +
-          'removeformat | image | help',
+          'codesample | removeformat | image | help',
         content_style: 'body { font-family:Inter, Arial,sans-serif; font-size:14px }',
+        codesample_global_prismjs: true,
+        codesample_languages: [
+          { text: 'HTML/XML', value: 'markup' },
+          { text: 'JavaScript', value: 'javascript' },
+          { text: 'CSS', value: 'css' },
+          { text: 'PHP', value: 'php' },
+          { text: 'Ruby', value: 'ruby' },
+          { text: 'Python', value: 'python' },
+          { text: 'Java', value: 'java' },
+          { text: 'C', value: 'c' },
+          { text: 'C#', value: 'csharp' },
+          { text: 'C++', value: 'cpp' }
+        ],
         images_upload_handler: handleImageUpload,
         automatic_uploads: true,
         file_picker_types: 'image',

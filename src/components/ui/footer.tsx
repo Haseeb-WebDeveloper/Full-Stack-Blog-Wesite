@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">BlogSpace</h3>
+            <h3 className="text-lg font-bold">Gaming Master Hub</h3>
             <p className="text-muted-foreground">
-              Sharing thoughts, ideas, and stories that matter.
+              Gaming Master Hub is a website that provides a variety of tools related to AI, Marking, and more.
             </p>
           </div>
           

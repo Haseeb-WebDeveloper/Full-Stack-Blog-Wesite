@@ -8,7 +8,7 @@ import { siteConfig } from "@/config/seo";
 
 export const metadata: Metadata = {
   title: "Gaming Master Hub",
-  description: "Gaming Master Hub",
+  description: "Gaming Master Hub is a website that provides a variety of tools related to AI, Marking, and more.",
   keywords: ["Gaming Master Hub", "AI tools", "AI Marking", "AI free tools", "tools websites", "business tools"],
   authors: [{ name: "Haseeb Ahmed Raza Khan" }],
   creator: "Haseeb Ahmed Raza Khan",
